@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(206, 200, 200);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+}
+.cart{
+    color: rgb(247, 80, 108);
+}
+.logotext h2{
+    font-size: 35px;
+}
+.logotext h2 span{
+    color: rgb(249, 119, 141);
+}
+.cart{
+    font-size: 50px;
+}
+.search{
+    display: flex;
+    height: 40px;
+    /* margin-top: 1%; */
+}
+.search .searchicon{
+    padding: 5%;
+    background-color: rgb(247, 80, 108);
+    color: white;
+}
+.basketicon{
+    font-size: 30px;
+    color: rgb(247, 80, 108);
+    position: relative;
+    left: 35px;
+}
+.navigationn{
+    clear: both;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+    background-color: rgba(247, 80, 108, 0.768);
+    height: 30px;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    margin-top: 0;
+    /* justify-content: center; */
+}
+.navbar li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 15px;
+    padding: 8%;
+    
+}
+.navbar li a:hover{
+    background-color: pink;
+}
+.navbar .home{
+    margin-left:100px ;
+}
+.image{
+    background-image: url(images/fashion-3080644.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-attachment: fixed;
+    background-position: center;
+}
+.imagecontent{
+    position: relative;
+    left: 35%;
+    top: 40%;
+    color: white;
+    z-index: 1;
+}
+.imagecontent h1{
+    font-size: 80px;
+}
+.imagecontent p{
+    font-size: 25px;
+    margin-left: 150px;
+}
+.form{
+    clear: both;
+    width: 80%;
+    background-color: white;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form .content{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
